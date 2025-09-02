@@ -6,4 +6,4 @@ Ferramentas:
 - Api TMDB
 - Axios
 
-Deploy: 
+Deploy: https://netfrlirlxrl.netlify.app/
