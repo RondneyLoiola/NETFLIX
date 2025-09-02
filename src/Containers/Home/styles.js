@@ -46,12 +46,13 @@ export const Info = styled.div`
     }
     
     @media (max-width: 768px){
-        
+        width: 100%;
+        padding: 0;
 
         h2 {
-            font-size: 1.7rem;
-            width: 400px;
-            padding: 0rem .2rem;
+            font-size: 1.6rem;
+            width: 100%;
+            
         }
 
         h3 {
@@ -103,16 +104,16 @@ export const InfoForm = styled.div`
     }
 
     @media (max-width: 768px) {
-    
         flex-direction: column;
         align-items: center;
+        width: 100vw;
 
         input {
-            width: 350px;
+            width: 320px;
         }
 
         button {
-            padding: 0.6rem;
+            padding: 0.2rem;
             font-size: 1rem;
             width: 100px;
         }

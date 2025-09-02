@@ -45,6 +45,12 @@ export const Content = styled.div`
             width: 380px;
         }
     }
+
+    @media (max-width: 360px){
+        input {
+            width: 350px;
+        }
+    }
 `
 
 export const Button = styled.button`

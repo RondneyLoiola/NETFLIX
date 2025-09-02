@@ -37,6 +37,8 @@ export const Container = styled.div`
     }
 
     
+
+    
 `
 
 export const Content = styled.div`
@@ -46,6 +48,7 @@ export const Content = styled.div`
    
    @media (max-width: 768px){
         flex-direction: column;
+        
    }
 
    @media (max-width: 430px) {
@@ -86,6 +89,10 @@ export const Box = styled.div`
         }
     }
 
+    @media (max-width: 360px){
+        width: 320px;
+        
+    }
     
 
 `
